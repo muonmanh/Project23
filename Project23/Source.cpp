@@ -1,16 +1,16 @@
 #include<iostream>
 using namespace std;
 struct fraction {
-	int x;
-	int y;
+	int numerator;
+	int denominator;
 	void input();
 };
 void fraction::input() {
 	cout << "Enter x: ";
-	cin >> x;
+	cin >> numberator;
 
-	cout << "Enter y: ";
-	cin >> y;
+	cout << "Enter denomiator: ";
+	cin >> denominator;
 
 }
 void main()

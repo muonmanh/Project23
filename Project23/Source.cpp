@@ -8,7 +8,7 @@ struct fraction {
 };
 void fraction::input() {
 	cout << "Enter x: ";
-	cin >> numberator;
+	cin >> numerator;
 
 	cout << "Enter denomiator: ";
 	cin >> denominator;
@@ -16,8 +16,8 @@ void fraction::input() {
 }
 void fraction::output()
 {
-	cout << num;
-	cout << y;
+	cout << numerator;
+	cout << denominator;
 }
 void main()
 {
